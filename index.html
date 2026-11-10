@@ -3,66 +3,77 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Hoforsgym – Ett starkt alternativ</title>
-<meta name="description" content="Hoforsgym i Hoforshallen. Öppet alla årets dagar 05–24. Kostnadsfri instruktion, ingen bindningstid.">
+<meta name="theme-color" content="#17251e">
+<title>Hoforsgym – Träna på dina villkor i Hofors</title>
+<meta name="description" content="Träna på Hoforsgym i Hoforshallen. Öppet varje dag 05.00–24.00. Se priser, öppettider och hur du blir medlem.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
+<a class="skip-link" href="#innehall">Hoppa till innehållet</a>
 <header class="top">
   <div class="wrap top-in">
-    <a class="brand" href="#top">Hofors<span>gym</span></a>
+    <a class="brand" href="#top" aria-label="Hoforsgym, till startsidan"><span class="brand-mark" aria-hidden="true">H</span>HOFORS<span class="brand-light">GYM</span></a>
     <nav class="nav" aria-label="Huvudmeny">
       <a href="#oppettider">Öppettider</a>
       <a href="#priser">Priser</a>
-      <a href="#medlemskap">Medlemskap</a>
       <a href="#kontakt">Kontakt</a>
     </nav>
-    <a class="btn btn-sm" href="#kontakt">Bli medlem</a>
+    <a class="btn btn-sm" href="http://hoforsgym.se/info/ans%C3%B6kan-om-medlemskap-14079103">Bli medlem <span aria-hidden="true">↗</span></a>
   </div>
 </header>
 
-<main id="top">
+<main id="innehall">
 
-  <section class="hero">
+  <section class="hero" id="top">
     <div class="wrap hero-in">
       <div class="hero-text">
-        <p class="eyebrow">Hoforshallen · Hofors</p>
-        <h1>Ett starkt<br>alternativ.</h1>
-        <p class="lead">Öppet alla årets dagar, 05.00–24.00. Kostnadsfri instruktion, ingen bindningstid.</p>
+        <p class="eyebrow"><span class="eyebrow-dot"></span> Hoforshallen · Hofors</p>
+        <h1>Träna på<br>dina <em>villkor.</em></h1>
+        <p class="lead">Ditt lokala gym med gott om tid för träning. Kom igång i din egen takt – vi hjälper dig gärna.</p>
         <div class="cta">
-          <a class="btn" href="#priser">Se priser</a>
-          <a class="btn btn-ghost" href="#kontakt">Kontakta oss</a>
+          <a class="btn" href="#priser">Se medlemspriser <span aria-hidden="true">↓</span></a>
+          <a class="text-link" href="#oppettider">Öppettider <span aria-hidden="true">→</span></a>
         </div>
       </div>
       <figure class="hero-img">
-        <img src="https://files.builder.misssite.com/0c/a8/0ca8c122-78cf-4b0d-8fb2-e8caceeffc39.jpg" alt="Medlem tränar i maskin på Hoforsgym" width="1000" height="691">
+        <img src="https://files.builder.misssite.com/0c/a8/0ca8c122-78cf-4b0d-8fb2-e8caceeffc39.jpg" alt="Träning på Hoforsgym" width="1000" height="691" fetchpriority="high">
+        <figcaption class="open-card">
+          <span class="open-icon" aria-hidden="true">↗</span>
+          <span><strong>05.00–24.00</strong><small>Öppet alla dagar</small></span>
+        </figcaption>
       </figure>
     </div>
   </section>
 
-  <section class="facts">
+  <section class="facts" aria-label="Fördelar med Hoforsgym">
     <div class="wrap facts-in">
-      <div><strong>05–24</strong><span>Öppet varje dag, hela året</span></div>
-      <div><strong>0 kr</strong><span>Instruktion och träningsprogram</span></div>
-      <div><strong>Ingen</strong><span>Bindnings- eller uppsägningstid</span></div>
+      <div><span class="fact-number">01</span><p><strong>Träna när det passar</strong><span>Öppet årets alla dagar</span></p></div>
+      <div><span class="fact-number">02</span><p><strong>Kom igång kostnadsfritt</strong><span>Instruktion och program ingår</span></p></div>
+      <div><span class="fact-number">03</span><p><strong>Ingen bindningstid</strong><span>Träna utan långa åtaganden</span></p></div>
     </div>
   </section>
 
   <section id="oppettider" class="block">
     <div class="wrap">
-      <h2>Öppettider</h2>
+      <div class="section-heading">
+        <p class="eyebrow">Planera ditt besök</p>
+        <h2>Träna när det passar dig.</h2>
+        <p class="sub">Du har tillgång till gymmet nästan hela dagen, varje dag.</p>
+      </div>
       <div class="hours">
         <div class="hours-main">
-          <span class="big">05.00 – 24.00</span>
-          <span>Alla årets dagar</span>
+          <span class="hours-label"><span class="status-dot"></span> Öppet alla dagar</span>
+          <span class="big">05.00 <span>—</span> 24.00</span>
+          <span class="hours-caption">Måndag till söndag · hela året</span>
         </div>
         <div class="notice" role="note">
-          <strong>Obs! Torsdagar 08.00–12.00</strong>
-          Gymmet städas. Ingen träning tillåts då.
+          <span class="notice-icon" aria-hidden="true">!</span>
+          <div><strong>Stängt för städning</strong>
+          <p>Varje torsdag kl. 08.00–12.00. Då är träning inte tillåten.</p></div>
         </div>
       </div>
     </div>
@@ -70,79 +81,76 @@
 
   <section id="priser" class="block alt">
     <div class="wrap">
-      <h2>Träningsavgifter 2026</h2>
-      <p class="sub">Flera betalningsalternativ. Alla medlemmar betalar en deposition på 100 kr för tagg.</p>
+      <div class="section-heading">
+        <p class="eyebrow">Enkelt att komma igång</p>
+        <h2>Välj det som passar.</h2>
+        <p class="sub">Träningsavgifter 2026. Alla medlemskap har ingen bindningstid. Deposition för tagg tillkommer.</p>
+      </div>
 
       <div class="cards">
         <article class="card">
-          <h3>Vuxen</h3>
-          <p class="who">Född 2007 eller äldre</p>
+          <div class="card-heading"><h3>Vuxen</h3><span class="age">Född 2007 eller tidigare</span></div>
           <ul class="prices">
-            <li><span>Årskort <small>inkl. fria bad</small></span><b>2 400 kr</b></li>
-            <li class="sub-li"><span>Medlemmar AeroStep</span><b>1 200 kr</b></li>
-            <li><span>Halvår <small>inkl. fria bad</small></span><b>1 300 kr</b></li>
-            <li class="sub-li"><span>Medlemmar AeroStep</span><b>700 kr</b></li>
-            <li><span>Månadskort</span><b>250 kr</b></li>
+            <li><span>Årskort <small>fria bad ingår</small></span><b>2 400 <small>kr</small></b></li>
+            <li class="sub-li"><span>AeroStep-medlem · år</span><b>1 200 <small>kr</small></b></li>
+            <li><span>Halvårskort <small>fria bad ingår</small></span><b>1 300 <small>kr</small></b></li>
+            <li class="sub-li"><span>AeroStep-medlem · halvår</span><b>700 <small>kr</small></b></li>
+            <li><span>Månadskort <small>utan fria bad</small></span><b>250 <small>kr</small></b></li>
           </ul>
-          <p class="fine">Månadskort ger inga fria bad.</p>
         </article>
 
         <article class="card">
-          <h3>Ungdom &amp; pensionär</h3>
-          <p class="who">Född 2008 eller senare, samt pensionärer</p>
+          <div class="card-heading"><h3>Ungdom &amp; pensionär</h3><span class="age">Född 2008 eller senare</span></div>
           <ul class="prices">
-            <li><span>Årskort <small>inkl. fria bad</small></span><b>1 500 kr</b></li>
-            <li><span>Halvårskort <small>inkl. fria bad</small></span><b>800 kr</b></li>
-            <li><span>Månadskort</span><b>150 kr</b></li>
+            <li><span>Årskort <small>fria bad ingår</small></span><b>1 500 <small>kr</small></b></li>
+            <li><span>Halvårskort <small>fria bad ingår</small></span><b>800 <small>kr</small></b></li>
+            <li><span>Månadskort <small>utan fria bad</small></span><b>150 <small>kr</small></b></li>
           </ul>
-          <p class="fine">Månadskort ger inga fria bad.</p>
         </article>
       </div>
 
-      <ul class="perks">
-        <li>Ingen bindnings- eller uppsägningstid.</li>
-        <li>Kostnadsfria träningsuppehåll är möjliga efter kontakt med gymansvarig.</li>
-        <li>Betala med Swish till gymmets konto: <b>1234 910 915</b></li>
-      </ul>
+      <div class="price-notes">
+        <p><span aria-hidden="true">✓</span> Deposition för tagg: 100 kr</p>
+        <p><span aria-hidden="true">✓</span> Träningsuppehåll kan ordnas – kontakta gymansvarig</p>
+        <p><span aria-hidden="true">✓</span> Swish: 1234 910 915</p>
+      </div>
+      <p class="price-cta">Redo att börja träna? <a href="http://hoforsgym.se/info/ans%C3%B6kan-om-medlemskap-14079103">Ansök om medlemskap <span aria-hidden="true">→</span></a></p>
     </div>
   </section>
 
   <section id="medlemskap" class="block">
-    <div class="wrap two">
-      <div>
-        <h2>Kostnadsfri instruktion</h2>
-        <p>Personlig instruktion och träningsprogram får du gratis om du vill ha det.</p>
+    <div class="wrap member-block">
+      <div class="member-copy">
+        <p class="eyebrow">Mer än bara ett gymkort</p>
+        <h2>Du behöver inte<br>börja själv.</h2>
+        <p>Vill du ha hjälp att komma igång? Personlig instruktion och träningsprogram ingår utan extra kostnad.</p>
+        <a class="text-link dark-link" href="#kontakt">Fråga oss hur det fungerar <span aria-hidden="true">→</span></a>
       </div>
-      <div>
-        <h2>Subventionerad träning</h2>
-        <p>Hör med din arbetsgivare om ni, liksom OVAKO, vill subventionera din träning. Skriv till oss så får du kvitto.</p>
-      </div>
-    </div>
-    <div class="wrap center">
-      <a class="btn btn-ghost-dark" href="http://hoforsgym.se/info/ans%C3%B6kan-om-medlemskap-14079103">Ansökan om medlemskap</a>
-      <a class="btn btn-ghost-dark" href="http://hoforsgym.se/info/medlemsf%C3%B6rm%C3%A5ner-9701531">Medlemsförmåner och skyldigheter</a>
+      <aside class="member-aside">
+        <span class="aside-mark" aria-hidden="true">+</span>
+        <h3>Träna via jobbet?</h3>
+        <p>Fråga din arbetsgivare om friskvårdsbidrag. Vi hjälper dig gärna med kvitto.</p>
+        <a href="mailto:edsken26@gmail.com?subject=Fr%C3%A5ga%20om%20friskv%C3%A5rdsbidrag">Fråga om kvitto <span aria-hidden="true">↗</span></a>
+      </aside>
     </div>
   </section>
 
   <section id="kontakt" class="block dark">
-    <div class="wrap two">
-      <div>
-        <h2>Kontakt</h2>
-        <p class="who-light">Gymansvarig / kontaktperson</p>
-        <p class="name">Anders Svensson</p>
-        <p><a href="tel:+46702055803">070-205 58 03</a><br>
-        <a href="mailto:edsken26@gmail.com">edsken26@gmail.com</a></p>
-        <p class="cta"><a class="btn" href="mailto:edsken26@gmail.com?subject=Medlemskap%20Hoforsgym">Mejla oss</a>
-        <a class="btn btn-ghost" href="https://www.facebook.com/hoforsgym.se">Facebook</a></p>
+    <div class="wrap contact-layout">
+      <div class="contact-intro">
+        <p class="eyebrow">Vi finns här</p>
+        <h2>Har du en fråga?<br><em>Hör av dig.</em></h2>
+        <p>Prata med gymansvarig om medlemskap, träning eller något annat du undrar över.</p>
       </div>
-      <div>
-        <h2>Hitta hit</h2>
-        <address>
-          Hoforshallen<br>
-          Göklundsvägen 21<br>
-          813 21 Hofors
-        </address>
-        <p class="fine-light">Orgnr 802463-6006 · Plusgiro 853008-1</p>
+      <div class="contact-card">
+        <p class="contact-label">Gymansvarig</p>
+        <h3>Anders Svensson</h3>
+        <a class="contact-detail" href="tel:+46702055803">070-205 58 03 <span aria-hidden="true">↗</span></a>
+        <a class="contact-detail" href="mailto:edsken26@gmail.com">edsken26@gmail.com <span aria-hidden="true">↗</span></a>
+        <div class="contact-divider"></div>
+        <p class="contact-label">Besök oss</p>
+        <address>Hoforshallen<br>Göklundsvägen 21<br>813 21 Hofors</address>
+        <a class="map-link" href="https://maps.google.com/?q=Hoforshallen%2C+Göklundsvägen+21%2C+813+21+Hofors">Visa vägbeskrivning <span aria-hidden="true">↗</span></a>
       </div>
     </div>
   </section>
@@ -150,7 +158,7 @@
 </main>
 
 <footer class="foot">
-  <div class="wrap">© Hoforsgym · Hofors Atletklubb</div>
+  <div class="wrap foot-in"><a class="brand foot-brand" href="#top">HOFORS<span class="brand-light">GYM</span></a><span>© Hoforsgym · Hofors Atletklubb · Orgnr 802463-6006</span><a href="https://www.facebook.com/hoforsgym.se">Facebook <span aria-hidden="true">↗</span></a></div>
 </footer>
 
 </body>
